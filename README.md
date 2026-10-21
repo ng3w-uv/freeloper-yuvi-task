@@ -6,10 +6,10 @@ the homepage and `robots.txt`, and findings rendered back on the page.
 ## Why it's not actually inside HubSpot
 
 The plan was a HubSpot-hosted hero page. In practice, HubSpot's free tier has **no Custom HTML
-module and no Embed module** — there's no way to run custom JS inside a page without a paid CMS
+module and no Embed module**, there's no way to run custom JS inside a page without a paid CMS
 Hub plan. Per the brief's own allowance ("a partial/local demo is fine if integration blocks
-you"), this ships as a standalone static page that *is* the intended hero — same markup, same
-behavior — and would move into a real HubSpot custom module unchanged if a paid tier is available.
+you"), this ships as a standalone static page that *is* the intended hero, same markup, same
+behavior, and would move into a real HubSpot custom module unchanged if a paid tier is available.
 
 ## Architecture
 
