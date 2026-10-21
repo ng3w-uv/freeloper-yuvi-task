@@ -86,8 +86,7 @@ the actual logic lives entirely in `api/analyze.js` and `api/checks.js`.
 ### Known limitation
 
 `isUnsafeTarget` checks the literal hostname/IP in the submitted URL, but does **not** resolve
-DNS first. A hostname that resolves to a private IP (DNS rebinding) would slip through. Fine for
-this unpaid demo; would need to resolve-then-check before fetching for any real public use.
+DNS first. A hostname that resolves to a private IP (DNS rebinding) would slip through.
 
 ## Examples to try
 
